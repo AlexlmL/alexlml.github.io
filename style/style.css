@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Navigation Styles */
+.nav-main {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  height: 60px;
+  padding: 20px 0;
+  background: #2E83B8;
+  justify-content:left;
+}
+/*Logo*/
+.nav-brand {
+  width: 50px;
+  margin-left: 20px;
+  margin-bottom: 2px;
+}
+.nav-main ul {
+  display: flex;
+  color: orange;
+}
+.nav-main ul li {
+  padding: 10px;
+}
+/* Showcase Styles */
+.showcase {
+  color: orange;
+  background: #fff;
+  display: flex;
+  height: 500px;
+}
+
+.contentShowcase {
+  margin: auto;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.contentShowcase h2 {
+  font-size: 28px;
+}
+
+.contentShowcase p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.imgDownload {
+  display: flex;
+  height: 5%;
+}
+
+.appStore {
+  flex:1;
+  height: 65px;
+  margin-top:57px;
+}
+.googleStore{
+  flex:1;
+  height: 78px;
+  width: 120px;
+  margin-top: 50px;
+}
+.showcase-img {
+  flex: 1;
+  width: 750px;
+  height: 850px;
+  margin: 35px;
+  border-radius: 30px 30px 30px 30px;
+  background-size: 100% auto;
+}
+/* Servicios*/
+.service{
+  background: #fff;
+  height: 1250px;
+}
+.service h2{
+  color: #fff;
+  background: #2E83B8;
+  height: 60px;
+  text-align: center;
+  padding: 15px 0;
+  width: 75%;
+  margin: auto;
+  border-radius: 30px 30px 30px 30px;
+}
+.service div{
+  display: flex;
+}
+.servicef1{
+  flex:1;
+  height: 350px;
+  margin: 300px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.servicef1 img{
+  height: 300px;
+  width: 550px;
+  margin: auto;
+  border-radius: 30px 30px 30px 30px;
+}
+.servicef1 p{
+  font-size: 22px;
+  margin: auto;
+  margin-left: 30px;
+}
+.servicef2{
+  flex:1;
+  height: 350px;
+  margin: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.servicef2 img{
+  height: 300px;
+  width: 550px;
+  margin: auto;
+  border-radius: 30px 30px 30px 30px;
+}
+.servicef2 p{
+  font-size: 22px;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+.servicef3{
+  flex:1;
+  height: 350px;
+  margin: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.servicef3 img{
+  height: 300px;
+  width: 550px;
+  margin: auto;
+  border-radius: 30px 30px 30px 30px;
+}
+.servicef3 p{
+  font-size: 22px;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+/* Contacto */
+.contact-us{
+  background: #fff;
+  height: 450px;
+}
+.contact-us h2{
+  color: #fff;
+  background: #2E83B8;
+  height: 60px;
+  text-align: center;
+  padding: 15px 0;
+  width: 75%;
+  margin: auto;
+  border-radius: 30px 30px 30px 30px;
+}
+.contactf1{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.f1column1 {
+  flex: 1; 
+  margin-left: 15%;  
+}
+.f1column1 h3{
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+.f1column2 {
+  flex: 1;    
+}
+.f1column2 h3 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;   
+}
+.f1column2 img{
+  width: 180px;
+  height: 80px;
+}
+.contactf2{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.f2column1 {
+  flex: 1; 
+  margin-left: 15%;  
+}
+.f2column1 h3{
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+.f2column2 {
+  flex: 1;    
+}
+.f2column2 h3 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;   
+}
